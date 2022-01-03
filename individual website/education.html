@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+  	<title>My page ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</title>
+  	<link rel="stylesheet" href="css/newstyle2.css">
+	<link <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	
+	
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="Nlogo.jpeg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onClick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+                                        <li><a href="family.html">FAMILY</a></li>
+                                        <li><a href="gallery.html">GALLERY</a></li>
+                                        
+
+				</ul>
+			</div>
+			<i class="fa fa-bars" onClick="showMenu()"></i>
+ 		</nav>
+	<h1 align="center">❝ Get To Know Me ❞</h1>
+<p align="center"> My Education </p>
+</section  >
+	
+<!--- me page content--->
+
+<section class="about">
+		<h1 align="center">ABOUT</h1>
+		
+		
+		<div class="row">
+			<div class="about-col">
+				<h3>EDUCATION</h3>
+				<p> In primary school I went to SK Sultanah Asma and finished my upsr with 3As. Next, for secondary school I went to SMK Convent Alor Setar and I finished my secondary school with flying colours. I managed to get 5As for my spm and after that i went to giatmara for a sewing course.</p> </div>
+			
+			
+		</div>
+		
+	</section>
+		<br><br>
+	
+
+	<!--- Footer --->
+	
+	<footer class="footer">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+                                        <li><a href="family.html">FAMILY</a></li>
+                                        <li><a href="gallery.html">GALLERY</a></li>
+                                        <li><a href="contactnumber.html">CONTACT</a></li>
+		</ul>
+		<p>©️ Copyright Ranea 2021. </p>
+	</footer>
+	
+<!---JavaScript for Toggle Menu--->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right - "0";
+		}
+		function hideMenu(){
+			navLinks.style.right - "-200px";
+		}
+		   var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+	</script>
+</body>
+</html>

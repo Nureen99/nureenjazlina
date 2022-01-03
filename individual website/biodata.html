@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+  	<title>My page ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</title>
+  	<link rel="stylesheet" href="css/newstyle2.css">
+	<link <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+		<audio autoplay loop="infinite">
+		<source src="Imagine Dragons - On Top of the World.oggs" type="audio/oggs">
+		<source src="Imagine Dragons - On Top of the World.mp3" type="audio/mp3">
+		</audio>
+	
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="Nlogo.jpeg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onClick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+                                        <li><a href="family.html">FAMILY</a></li>
+                                        <li><a href="gallery.html">GALLERY</a></li>
+                                     
+				</ul>
+			</div>
+			<i class="fa fa-bars" onClick="showMenu()"></i>
+ 		</nav>
+	<h1 align="center">❝ Get To Know Me ❞</h1>
+<p align="center"> My Biodata </p>
+</section  >
+
+	
+<!--- me page content--->
+
+<section class="me">
+	
+	<div class="row">
+		<div class="me-col">
+			<h1>NUREEN JAZLINA</h1>
+			<p>Name : NUREEN JAZLINA BINTI HASNUL
+				<br>
+				Nickname : Ween
+				<br>
+				Date of Birth : 31 Oct 1999
+				<br>
+				Place of Birth : Hospital Besar Alor Setar
+				<br>
+				Hobbies : Cooking
+				<br>
+				Favourite color : Blue
+				<br>
+				Favourite food : Sushi
+				<br>
+				Pets : Two beta fishes, Milo and Bea</p>
+			<a href="https://www.youtube.com/watch?v=awkkyBH2zEo" class="hero-btn red-btn">LISTEN TO MY FAV SONG ON YOUTUBE</a>
+		</div>
+		
+	<div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+ 
+        <div class="slide first">
+          <img src="e1.JPEG" alt="">
+        </div>
+        <div class="slide">
+          <img src="e2.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="e3.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="e4.jpeg" alt="">
+        </div>
+ 
+      
+		
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+			</div>
+
+		
+	</div>
+</section>
+
+	<!--- Footer --->
+	
+	<footer class="footer">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+                                        <li><a href="family.html">FAMILY</a></li>
+                                        <li><a href="gallery.html">GALLERY</a></li>
+		</ul>
+		<p>©️ Copyright Nureen 2022. </p>
+	</footer>
+	
+<!---JavaScript for Toggle Menu--->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right - "0";
+		}
+		function hideMenu(){
+			navLinks.style.right - "-200px";
+		}
+		   var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+	</script>
+</body>
+</html>
